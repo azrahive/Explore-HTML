@@ -7,6 +7,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+    
 }
 .nclass{
     font-size: 45px;
@@ -21,8 +22,11 @@ li{
 a{
     text-decoration: none;
 }
-.dark-2{
-    color: #474747;
+.pb{
+    color: #5e5a5a;
+}
+.About{
+    color: #5e5a5a;
 }
 ul{
     display: flex;
@@ -36,5 +40,21 @@ ul{
     color: white;
     padding: 18px 35px;
     border-radius: 10px;
-    border-color:#FD6E0A;
+    /border-color:#FD6E0A;
+    border: none;
+}
+.Hi{
+    font-size: 45px;
+    color: #5e5a5a;
+}
+.Md{
+    font-size: 55px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner.cont{
+    max-width: 580px;
+    margin: 3335px;
 }
