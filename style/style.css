@@ -53,8 +53,19 @@ ul{
 .banner{
     display: flex;
     justify-content: space-between;
+    //max-width: 580px;
+    //margin: 0 150px 0 8px;
 }
-.banner.cont{
-    max-width: 580px;
-    margin: 3335px;
+.banner-cont{
+    width: 600px;
+    margin: 0 150px;
 }
+img{
+    margin: 0 40px;
+}
+.header{
+    background-image: url(../style/developer.png) , url(../style/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
